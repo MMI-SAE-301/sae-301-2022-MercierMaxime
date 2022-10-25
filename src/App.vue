@@ -1,9 +1,10 @@
 <template>
   <nav>
     <h4 class="text-xl">
-      <Bars3Icon class="inline-block h-5 w-5 text-blue-500" />
+      <Bars3Icon class="inline-block h-5 w-5 text-blue-500"/>
       menu (dans <code class="font-mono">/src/App.vue</code>)
     </h4>
+      <LoginGoogle />
     <ul>
       <li>
         <router-link class="text-red-600 underline" to="/">
@@ -20,7 +21,10 @@
       </li>
 
       <li>
-      <LoginGoogle />
+        <router-link class="text-red-600 underline" to="/montre/liste">
+          lien vers
+          <code class="font-mono">/src/pages/montre/liste.vue</code>
+        </router-link>
       </li>
     </ul>
   </nav>

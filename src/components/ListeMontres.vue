@@ -17,7 +17,7 @@
 
 <template>
     <ul>
-        <li v-for="montre in Montre" :key="montre.id_montre">
+        <li v-for="montre in Montre" :key="montre.id">
         <router-link
         :to="{ name: 'montre-edit-id', params: { id: montre.id } }"
         >
