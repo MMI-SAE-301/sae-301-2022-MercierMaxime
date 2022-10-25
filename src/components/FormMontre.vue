@@ -9,6 +9,17 @@
     const Montre = ref({});
     const props = defineProps(["id", "Montre"]);
 
+    const { data: listeMateriaux, error } = await supabase
+    .from("Materiaux")
+    .select("*");
+    if (error) console.log("erreur table Matériaux :", error);
+
+    const optionsMateriaux = listeMateriaux?.map((Materiaux) => ({
+    value: Materiaux.id_materiaux,
+    label: Materiaux.libelle_materiaux,
+    }));    
+    
+
     if (props.id) {
     let { data, error } = await supabase
     .from("Montre")
@@ -38,6 +49,7 @@
         <FormKitListColors name="bracelet" label="bracelet" />
         <FormKitListColors name="ecran" label="ecran" />
         <FormKitListColors name="boitier" label="boitier" />
+        <FormKit type="select" name="id_materiaux" placeholder="Sélectionner un matériel" label="Composition" :options="optionsMateriaux" />
     </FormKit>
     </div>
 </template>
