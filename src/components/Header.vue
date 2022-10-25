@@ -1,4 +1,3 @@
-
 <template>
   <header class="bg-Noir">
     <div class="grid grid-cols-4 space-x-4">

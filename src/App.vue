@@ -2,6 +2,7 @@
 import { Bars3Icon } from "@heroicons/vue/20/solid";
 import LoginGoogle from './components/LogGoogle.vue';
 import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -35,6 +36,8 @@ import Header from './components/Header.vue';
       </li>
     </ul>
   </nav>
+
+  <Footer />
 
   <!-- Affiche les pages -->
   <Suspense>
