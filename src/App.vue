@@ -13,6 +13,13 @@
       </li>
 
       <li>
+        <router-link class="text-red-600 underline" to="/montre/new">
+          lien vers
+          <code class="font-mono">/src/pages/montre/new.vue</code>
+        </router-link>
+      </li>
+
+      <li>
       <LoginLogout />
       </li>
     </ul>
@@ -26,5 +33,5 @@
 
 <script setup lang="ts">
 import { Bars3Icon } from "@heroicons/vue/20/solid";
-import LoginLogout from './components/LoginLogout.vue'
+import LoginLogout from './components/LogGoogle.vue'
 </script>
