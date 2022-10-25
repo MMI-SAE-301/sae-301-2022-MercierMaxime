@@ -20,7 +20,7 @@
       </li>
 
       <li>
-      <LoginLogout />
+      <LoginGoogle />
       </li>
     </ul>
   </nav>
@@ -33,5 +33,5 @@
 
 <script setup lang="ts">
 import { Bars3Icon } from "@heroicons/vue/20/solid";
-import LoginLogout from './components/LogGoogle.vue'
+import LoginGoogle from './components/LogGoogle.vue'
 </script>
