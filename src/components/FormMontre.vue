@@ -35,14 +35,9 @@
             <MontreFace  class=" w-64" v-bind="Montre" id="profil" />
         </div>
     <FormKit type="form" v-model="Montre" @submit="upsertMontre">
-        <FormKitListColors name="semelle" label="semelle" />
-        <FormKitListColors name="empeigne" label="empeigne" />
-        <FormKitListColors name="pointe" label="pointe" />
-        <FormKitListColors name="oeillet" label="oeillet" />
-        <FormKitListColors name="bande" label="bande" />
-        <FormKitListColors name="languette" label="languette" />
-        <FormKitListColors name="lacet" label="lacet" />
-        <FormKitListColors name="trimestre" label="trimestre" />
+        <FormKitListColors name="bracelet" label="bracelet" />
+        <FormKitListColors name="ecran" label="ecran" />
+        <FormKitListColors name="boitier" label="boitier" />
     </FormKit>
     </div>
 </template>
