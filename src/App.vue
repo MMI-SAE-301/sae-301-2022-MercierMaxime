@@ -11,6 +11,10 @@
           <code class="font-mono">/src/pages/index.vue</code>
         </router-link>
       </li>
+
+      <li>
+      <LoginLogout />
+      </li>
     </ul>
   </nav>
 
@@ -22,4 +26,5 @@
 
 <script setup lang="ts">
 import { Bars3Icon } from "@heroicons/vue/20/solid";
+import LoginLogout from './components/LoginLogout.vue'
 </script>
