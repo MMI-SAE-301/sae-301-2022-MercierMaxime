@@ -22,13 +22,15 @@ import { supabase, user } from '../supabase';
         </div>
 
         <div class="grid grid-cols-3 m-auto pt-32 pb-20">
-            <img class="ml-auto" src="@/components/img/Logo-Facebook.png" alt="Logo Facebook">
-                <div @pointerdown="supabase.auth.signIn({provider: 'google'})">
-                    <img class="ml-16"  src="@/components/img/Logo-Google.png" alt="Logo Google">
-                </div> 
-                <div class="flex justify-center mr-auto">
-                    <RouterLink class="text-center px-10 py-3 rounded-xl border-4 border-solid border-Blanc text-Blanc font-made-okine-sans-personal-use font-light sm:text-sm lg:text-base xl:text-lg" to="/">Inscription</RouterLink>
-                </div>
+            <div @pointerdown="supabase.auth.signIn({provider: 'facebook'})">
+                <img class="ml-auto" src="@/components/img/Logo-Facebook.png" alt="Logo Facebook">
+            </div>
+            <div @pointerdown="supabase.auth.signIn({provider: 'google'})">
+                <img class="ml-16"  src="@/components/img/Logo-Google.png" alt="Logo Google">
+            </div> 
+            <div class="flex justify-center mr-auto">
+                <RouterLink class="text-center px-10 py-3 rounded-xl border-4 border-solid border-Blanc text-Blanc font-made-okine-sans-personal-use font-light sm:text-sm lg:text-base xl:text-lg" to="/">Inscription</RouterLink>
+            </div>
         </div>
     </div>
 </template>
