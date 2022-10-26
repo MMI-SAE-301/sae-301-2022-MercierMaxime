@@ -50,7 +50,12 @@ import Footer from './components/Footer.vue';
       <img class="w-1/3 h-1/2 p-10" src="./components/img/Illustration-4.png" alt="Image montre 4">
     </div>
 
-    <img class="w-1/12 m-auto" src="./components/img/Vector.png" alt="">
+    <img class="w-1/12 py-28 m-auto" src="./components/img/Vector.png" alt="Fleche descendante">
+
+    <h1 class="text-center font-made-okine-sans-personal-use font-regular text-Blanc sm:text-xl lg:text-2xl xl:text-3xl">Personnaliser votre </h1>
+    <h1 class="text-center font-made-okine-sans-personal-use font-regular text-Blanc sm:text-xl lg:text-2xl xl:text-3xl">montre maintenant</h1>
+
+    <h2 class="text-center pt-10 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Créer le chef d’oeuvre qui changera votre vie.</h2>
 
   </div>
 
