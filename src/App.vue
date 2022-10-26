@@ -5,14 +5,27 @@ import Footer from './components/Footer.vue';
 
 <template>
   <Header />
-  <div class="bg-Noir flex justify-between px-4">
-    <div class="px-[7%]">
-      <p class="lg:pt-10 py-2  font-made-okine-sans-personal-use font-regular text-Blanc sm:text-xl lg:text-2xl xl:text-3xl">Tik.Tak.</p>
-      <p class="lg:pt-10 py-2  font-made-okine-sans-personal-use font-light text-Blanc sm:text-lg lg:text-xl xl:text-2xl">Un modèle</p>
-      <p class="lg:pt-10 py-2  font-made-okine-sans-personal-use font-light text-Blanc sm:text-lg lg:text-xl xl:text-2xl">Une identité</p>
-      <p class="lg:pt-10 py-2  font-made-okine-sans-personal-use font-light text-Blanc sm:text-lg lg:text-xl xl:text-2xl">Votre histoire</p>
+  <div class="bg-Noir">
+    <div class="flex justify-between px-4">
+      <div class="px-[7%]">
+        <h1 class="lg:pt-10 py-2  font-made-okine-sans-personal-use font-regular text-Blanc sm:text-xl lg:text-2xl xl:text-3xl">Tik.Tak.</h1>
+        <h2 class="lg:pt-10 py-2  font-made-okine-sans-personal-use font-light text-Blanc sm:text-lg lg:text-xl xl:text-2xl">Un modèle</h2>
+        <h2 class="lg:pt-10 py-2  font-made-okine-sans-personal-use font-light text-Blanc sm:text-lg lg:text-xl xl:text-2xl">Une identité</h2>
+        <h2 class="lg:pt-10 py-2  font-made-okine-sans-personal-use font-light text-Blanc sm:text-lg lg:text-xl xl:text-2xl">Votre histoire</h2>
+      </div>
+      <img class="w-1/2 h-1/2 p-10" src="./components/img/Illustration-1.png" alt="Image montre 1">
     </div>
-    <img class="w-1/2 h-1/2 p-10  " src="./components/img/Illustration-1.png" alt="">
+
+    <hr class="mx-[17%] my-20">
+
+    <div class="flex justify-between px-4">
+      <div class="px-[7%]">
+        <h2 class="lg:pl-10  pt-10 font-made-okine-sans-personal-use font-regular text-Blanc sm:text-lg lg:text-xl xl:text-2xl">Un modèle</h2>
+        <h3 class="lg:pl-20 pt-20 font-made-okine-sans-personal-use font-light text-Blanc sm:text-base lg:text-base xl:text-base">Nous vous proposons une montre unique en son genre, de l’écran en passant par le bracelet et le boitier, faites de votre montre un bijou personnel inestimable.</h3>
+        <h3 class="lg:pl-20 pt-20 font-made-okine-sans-personal-use font-light text-Blanc sm:text-base lg:text-base xl:text-base">Elaborer avec soin, avec des matériaux de qualité, telles que la céramique, en titane ou encore en acier, votre montre vous accompagnera partout à tout les instants.</h3>
+      </div>
+      <img class="w-1/2 h-1/2 p-10" src="./components/img/Illustration-2.png" alt="Image montre 2">
+    </div>
   </div>
 
 
