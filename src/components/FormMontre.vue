@@ -44,8 +44,8 @@
     <div class="bg-Noir">
         <h1 class="text-Blanc text-center font-made-okine-sans-personal-use font-regular sm:text-lg lg:text-xl xl:text-4xl">Personnalisation</h1>
         <h2 class="text-center pt-10 pb-20 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Commencer votre création.</h2>
-            <div class=" w-64">
-                <MontreFace  class=" w-64" v-bind="Montre" id="profil" />
+            <div class="w-64">
+                <MontreFace  class="w-64" v-bind="Montre" id="profil" />
             </div>
         <div class="text-Blanc font-made-okine-sans-personal-use font-light">
         <FormKit type="form" v-model="Montre" @submit="upsertMontre">

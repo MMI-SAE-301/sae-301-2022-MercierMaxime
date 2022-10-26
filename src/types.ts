@@ -5,16 +5,10 @@ export interface Montre {
 }
 
 export const colors = {
+    "#2dd2e9": "Turquoise",
+    "#46bcbc": "BleuVert",
+    "#bc8f8f": "Marron-fonce",
+    "#da2424": "Rouge",
     "#000000": "Noir",
-    "#FFFFFF": "Blanc",
-    "#FF0000": "Rouge",
-    "#00FF00": "Vert",
-    "#0000FF": "Bleu",
-    "#FFFF00": "Jaune",
-    "#FF00FF": "Magenta",
-    "#00FFFF": "Cyan",
-    "#C0C0C0": "Gris clair",
-    "#808080": "Gris",
-    "#800000": "Marron",
-    "#808000": "Olive",
+    "#d9d9d9": "Gris",
 };
