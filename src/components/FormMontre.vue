@@ -48,9 +48,29 @@
                 <MontreFace  class="w-64" v-bind="Montre" id="profil" />
                 <div class="text-Blanc font-made-okine-sans-personal-use font-light">
                 <FormKit type="form" v-model="Montre" @submit="upsertMontre">
+
+                    <div class="grid grid-cols-2">
+                        <FormKitListColors name="bracelet" label="Bracelet :" />
+                        <div class="pt-5 pl-5">
+                            <FormKit name="bracelet" type="color" />
+                        </div>
+                    </div>
                     
+                    <div class="grid grid-cols-2">
                     <FormKitListColors name="ecran" label="Ecran :" />
+                    <div class="pt-5 pl-5">
+                            <FormKit name="bracelet" type="color" />
+                        </div>
+                    </div>
+
+
+                    <div class="grid grid-cols-2">
                     <FormKitListColors name="boitier" label="Boitier :" />
+                    <div class="pt-5 pl-5">
+                            <FormKit name="bracelet" type="color" />
+                        </div>
+                    </div>
+                    
                     <FormKit type="select" wrapper-class="text-Noir" label-class="text-Blanc" name="id_materiaux" placeholder="Sélectionner un matériel" label="Composition :" :options="optionsMateriaux" />
                 </FormKit>
                 </div>
