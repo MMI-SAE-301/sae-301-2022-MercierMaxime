@@ -41,15 +41,17 @@
 </script>
 
 <template>
-    <div class="p-2">
-        <div class=" w-64">
-            <MontreFace  class=" w-64" v-bind="Montre" id="profil" />
-        </div>
-    <FormKit type="form" v-model="Montre" @submit="upsertMontre">
-        <FormKitListColors name="bracelet" label="bracelet" />
-        <FormKitListColors name="ecran" label="ecran" />
-        <FormKitListColors name="boitier" label="boitier" />
-        <FormKit type="select" name="id_materiaux" placeholder="Sélectionner un matériel" label="Composition" :options="optionsMateriaux" />
-    </FormKit>
+    <div class="bg-Noir">
+        <h1 class="text-Blanc text-center font-made-okine-sans-personal-use font-regular sm:text-lg lg:text-xl xl:text-4xl">Personnalisation</h1>
+        <h2 class="text-center pt-10 pb-20 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Commencer votre création.</h2>
+            <div class="w-64">
+                <MontreFace  class="w-64" v-bind="Montre" id="profil" />
+            </div>
+        <FormKit type="form" v-model="Montre" @submit="upsertMontre">
+            <FormKitListColors class="text-Blanc" name="Bracelet" label="Bracelet :" />
+            <FormKitListColors name="Ecran" label="Ecran :" />
+            <FormKitListColors name="Boitier" label="Boitier :" />
+            <FormKit type="select" name="id_materiaux" placeholder="Sélectionner un matériel" label="Composition" :options="optionsMateriaux" />
+        </FormKit>
     </div>
 </template>
