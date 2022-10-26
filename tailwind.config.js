@@ -20,13 +20,15 @@ module.exports = {
         "Jaune": "#e9d521"
       },
       "fontSize": {
-        "base": "1.5rem",
-        "lg": "2rem",
-        "xl": "2.25rem",
-        "2xl": "2.5rem",
-        "3xl": "3rem",
-        "4xl": "4rem",
-        "5xl": "5rem"
+        "sm": "0.9375rem",
+        "base": "1.25rem",
+        "lg": "1.5rem",
+        "xl": "2rem",
+        "2xl": "2.25rem",
+        "3xl": "2.5rem",
+        "4xl": "3rem",
+        "5xl": "4rem",
+        "6xl": "5rem"
       },
       "fontFamily": {
         "made-okine-sans-personal-use": "MADE Okine Sans PERSONAL USE"
