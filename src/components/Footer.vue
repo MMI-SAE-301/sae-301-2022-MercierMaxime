@@ -12,7 +12,7 @@
         <img src="./img/Logo-Copyright.png" alt="Logo Copyright">
       </div>
       <RouterLink to="/montre"><p class="pt-10 pl-12 font-made-okine-sans-personal-use font-thin text-Blanc sm:text-sm lg:text-base xl:text-lg">Collection</p></RouterLink>
-      <RouterLink to="/Personnalisation"><p class="pt-10 pl-10  font-made-okine-sans-personal-use font-thin text-Blanc sm:text-sm lg:text-base xl:text-lg">Personnalisation</p></RouterLink>
+      <RouterLink to="/montre/new"><p class="pt-10 pl-10  font-made-okine-sans-personal-use font-thin text-Blanc sm:text-sm lg:text-base xl:text-lg">Personnalisation</p></RouterLink>
       <RouterLink to="/Inscription"><p class="pt-10 pl-20 font-made-okine-sans-personal-use font-thin text-Blanc sm:text-sm lg:text-base xl:text-lg">Inscription</p></RouterLink>
       <div class="grid-rows-2">
       <RouterLink to="/Connexion"><p class="pt-10 pl-10 font-made-okine-sans-personal-use font-thin text-Blanc sm:text-sm lg:text-base xl:text-lg">Connexion</p></RouterLink>
