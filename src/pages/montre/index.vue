@@ -6,7 +6,7 @@ import ListeMontres from "@/components/ListeMontres.vue";
 <template>
   <div class="bg-Noir">
     <section v-if="user">
-      <h1 class="text-Blanc text-center font-made-okine-sans-personal-use font-regular sm:text-lg lg:text-xl xl:text-4xl">Collection</h1>
+      <h1 class="text-Blanc pt-10 text-center font-made-okine-sans-personal-use font-regular sm:text-lg lg:text-xl xl:text-4xl">Collection</h1>
       <h2 class="text-center pt-10 pb-20 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Vos dernières créations.</h2>
           <ListeMontres class="flex flex-wrap justify-center gap-2" :max="3" />
         <div class="pt-40 pb-10 flex justify-center">

@@ -4,7 +4,7 @@ import { supabase, user } from '../supabase';
 
 <template>
     <div class="bg-Noir">
-        <h1 class="text-Blanc text-center font-made-okine-sans-personal-use font-regular sm:text-lg lg:text-xl xl:text-4xl">Inscription</h1>
+        <h1 class="text-Blanc pt-10 text-center font-made-okine-sans-personal-use font-regular sm:text-lg lg:text-xl xl:text-4xl">Inscription</h1>
         <h2 class="text-center pt-10 pb-20 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Bienvenue parmis nous.</h2>
         <div class="flex justify-center">
             <p class="pt-3 pr-5 font-made-okine-sans-personal-use font-regular text-Blanc sm:text-sm lg:text-base xl:text-base">Nom :</p>
