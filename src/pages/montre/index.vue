@@ -27,13 +27,13 @@ const exemples: Montre = [{
     <div class="flex flex-wrap gap-2">
       <div class="w-64">
         <RouterLink
-        v-for="exemple in exemples " :key="exemple"
+        v-for="montre in exemples " :key="montre"
           :to="{
             name: 'montre-exemple-data',
-            params: { data: JSON.stringify(exemple) },
+            params: { data: JSON.stringify(montre) },
           }"
         >
-          <MontreFace class="w-64" v-bind="exemple" />
+          <MontreFace class="w-64" v-bind="montre" />
         </RouterLink>
       </div>
     </div>

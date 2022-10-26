@@ -6,12 +6,10 @@ import Footer from './components/Footer.vue';
 <template>
   <Header />
   
-  
-
-
   <Suspense>
     <router-view class=" p-2" />
   </Suspense>
+  
   <Footer />
 
 </template>

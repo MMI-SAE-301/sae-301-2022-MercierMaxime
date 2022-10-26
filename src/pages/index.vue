@@ -52,8 +52,48 @@
   <h2 class="text-center pt-10 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Créer le chef d’oeuvre qui changera votre vie.</h2>
 
   <div class="py-40 flex justify-center">
-  <router-link class="text-center px-8  py-5 rounded-xl border-4 border-solid border-Blanc text-Blanc font-made-okine-sans-personal-use font-light sm:text-base lg:text-lg xl:text-xl" to="/montre/new">Commencer la création</router-link>
+  <router-link class="text-center px-20  py-5 rounded-xl border-4 border-solid border-Blanc text-Blanc font-made-okine-sans-personal-use font-light sm:text-base lg:text-lg xl:text-xl" to="/montre/new">Commencer la création</router-link>
   </div>
+
+  <h1 class="pl-16 pb-10 font-made-okine-sans-personal-use font-regular text-Blanc sm:text-xl lg:text-2xl xl:text-3xl">Nos ventes les plus populaires :</h1>
+
+  <section>
+    <div class="flex flex-wrap">
+      <div class="w-64 m-auto grid grid-cols-3 hover:space-x-32">
+        <RouterLink
+        v-for="montre in exemples " :key="montre"
+          :to="{
+            name: 'montre-exemple-data',
+            params: { data: JSON.stringify(montre) },
+          }"
+        >
+          <MontreFace class="w-64" v-bind="montre" />
+        </RouterLink>
+      </div>
+    </div>
+  </section>
 
 </div>
 </template>
+
+<script setup lang="ts">
+import type { Montre } from "@/types";
+import MontreFace from "@/components/MontreFace.vue";
+
+const exemples: Montre = [{
+  bracelet: "#FFFFFF",
+  boitier: "#00FF00",
+  ecran: "#e9d521",
+},
+{
+  bracelet: "#0F532E",
+  boitier: "#00FF00",
+  ecran: "#D45FC5",
+},
+{
+  bracelet: "#FEDA34",
+  boitier: "#DFJK42",
+  ecran: "#0F532E",
+}
+];
+</script>
