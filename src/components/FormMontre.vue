@@ -44,16 +44,16 @@
     <div class="bg-Noir">
         <h1 class="text-Blanc text-center font-made-okine-sans-personal-use font-regular sm:text-lg lg:text-xl xl:text-4xl">Personnalisation</h1>
         <h2 class="text-center pt-10 pb-20 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Commencer votre création.</h2>
-            <div class="w-64">
-                <MontreFace  class="w-64" v-bind="Montre" id="profil" />
+            <div class=" w-64">
+                <MontreFace  class=" w-64" v-bind="Montre" id="profil" />
             </div>
-        <div class="text-Blanc">
+        <div class="text-Blanc font-made-okine-sans-personal-use font-light">
         <FormKit type="form" v-model="Montre" @submit="upsertMontre">
-            <FormKitListColors  name="Bracelet" label="Bracelet :" />
-            <FormKitListColors name="Ecran" label="Ecran :" />
-            <FormKitListColors name="Boitier" label="Boitier :" />
+            <FormKitListColors name="bracelet" label="Bracelet :" />
+            <FormKitListColors name="ecran" label="Ecran :" />
+            <FormKitListColors name="boitier" label="Boitier :" />
             <FormKit type="select" wrapper-class="text-Noir" name="id_materiaux" placeholder="Sélectionner un matériel" label="Composition" :options="optionsMateriaux" />
         </FormKit>
-        </div>
+    </div>
     </div>
 </template>
