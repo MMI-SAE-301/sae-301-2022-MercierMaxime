@@ -22,23 +22,6 @@ const exemples: Montre = [{
 ];
 </script>
 <template>
-  <section>
-    <h1 class="text-2xl">Exemples de Montres</h1>
-    <div class="flex flex-wrap gap-2">
-      <div class="w-64">
-        <RouterLink
-        v-for="montre in exemples " :key="montre"
-          :to="{
-            name: 'montre-exemple-data',
-            params: { data: JSON.stringify(montre) },
-          }"
-        >
-          <MontreFace class="w-64" v-bind="montre" />
-        </RouterLink>
-      </div>
-    </div>
-  </section>
-  
   <section v-if="user">
     <h1>Un aperçu de vos Montres : (<RouterLink class="text-red-300 underline" to="/montre/liste">Voir tout</RouterLink>)</h1>
     <ListeMontres class="flex flex-wrap gap-2" :max="3" />

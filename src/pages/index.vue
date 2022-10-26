@@ -1,5 +1,4 @@
 <template>
-
 <div class="bg-Noir">
   <div class="flex justify-between px-4">
     <div class="px-[7%]">
@@ -73,8 +72,7 @@
     </div>
   </section>
 
-  <h2 class="text-center py-16 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Plus de 200 ventes en 10 jours seuelement.</h2>
-
+  <h2 class="text-center py-16 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Plus de 200 ventes en 10 jours seulement.</h2>
 </div>
 </template>
 
