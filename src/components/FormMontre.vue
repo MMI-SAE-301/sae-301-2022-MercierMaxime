@@ -59,7 +59,7 @@
                     <div class="grid grid-cols-2">
                     <FormKitListColors name="ecran" label="Ecran :" />
                     <div class="pt-5 pl-5">
-                            <FormKit name="bracelet" type="color" />
+                            <FormKit name="ecran" type="color" />
                         </div>
                     </div>
 
@@ -67,7 +67,7 @@
                     <div class="grid grid-cols-2">
                     <FormKitListColors name="boitier" label="Boitier :" />
                     <div class="pt-5 pl-5">
-                            <FormKit name="bracelet" type="color" />
+                            <FormKit name="boitier" type="color" />
                         </div>
                     </div>
                     
