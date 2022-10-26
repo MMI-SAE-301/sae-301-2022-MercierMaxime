@@ -47,11 +47,13 @@
             <div class="w-64">
                 <MontreFace  class="w-64" v-bind="Montre" id="profil" />
             </div>
+        <div class="text-Blanc">
         <FormKit type="form" v-model="Montre" @submit="upsertMontre">
-            <FormKitListColors class="text-Blanc" name="Bracelet" label="Bracelet :" />
+            <FormKitListColors  name="Bracelet" label="Bracelet :" />
             <FormKitListColors name="Ecran" label="Ecran :" />
             <FormKitListColors name="Boitier" label="Boitier :" />
-            <FormKit type="select" name="id_materiaux" placeholder="Sélectionner un matériel" label="Composition" :options="optionsMateriaux" />
+            <FormKit type="select" wrapper-class="text-Noir" name="id_materiaux" placeholder="Sélectionner un matériel" label="Composition" :options="optionsMateriaux" />
         </FormKit>
+        </div>
     </div>
 </template>
