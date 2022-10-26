@@ -5,6 +5,7 @@ import Footer from './components/Footer.vue';
 
 <template>
   <Header />
+
   <div class="bg-Noir">
     <div class="flex justify-between px-4">
       <div class="px-[7%]">
@@ -49,11 +50,12 @@ import Footer from './components/Footer.vue';
       <img class="w-1/3 h-1/2 p-10" src="./components/img/Illustration-4.png" alt="Image montre 4">
     </div>
 
+    <img class="w-1/12 m-auto" src="./components/img/Vector.png" alt="">
+
   </div>
 
-
-
   <Footer />
+
   <Suspense>
     <router-view class="m-2 border-2 p-2" />
   </Suspense>

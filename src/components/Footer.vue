@@ -16,7 +16,7 @@
       <RouterLink to="/Inscription"><p class="pt-10 pl-20 font-made-okine-sans-personal-use font-thin text-Blanc sm:text-sm lg:text-base xl:text-lg">Inscription</p></RouterLink>
       <div class="grid-rows-2">
       <RouterLink to="/Connexion"><p class="pt-10 pl-10 font-made-okine-sans-personal-use font-thin text-Blanc sm:text-sm lg:text-base xl:text-lg">Connexion</p></RouterLink>
-      <p class="mt-72 pl-16 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-sm xl:text-sm">Maxime MERCIER - 2C1</p>
+      <p class="mt-72 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-sm xl:text-sm">Maxime MERCIER - 2C1</p>
       </div>
     </div>
   </footer>
