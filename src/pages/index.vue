@@ -73,6 +73,8 @@
     </div>
   </section>
 
+  <h2 class="text-center py-16 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Plus de 200 ventes en 10 jours seuelement.</h2>
+
 </div>
 </template>
 
