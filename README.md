@@ -3,7 +3,7 @@
 - **Nom : MERCIER**
 - **Prénom : Maxime**
 - **URL maquette Figma: https://www.figma.com/file/mx6BO1p1MmIHS30lM0KkFCSAE-301---MERCIER-Maxime?node-id=0%3A1**
-- **URL publique du site :**
+- **URL publique du site : https://tiktak.mercier-maxime.com**
 - **URL projet Supabase : https://app.supabase.com/project/yrikpdkybblyoggmdgqy**
   - [X] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
 
