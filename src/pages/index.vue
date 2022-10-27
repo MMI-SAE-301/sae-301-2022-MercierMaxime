@@ -77,6 +77,7 @@
 </template>
 
 <script setup lang="ts">
+//@ts-nocheck
 import type { Montre } from "@/types";
 import MontreFace from "@/components/MontreFace.vue";
 
