@@ -66,7 +66,7 @@
             params: { data: JSON.stringify(montre) },
           }"
         >
-          <MontreFace class="w-64" v-bind="montre" />
+          <MontreFace class="sm:w-36 lg:w-64 xl:w-64" v-bind="montre" />
         </RouterLink>
       </div>
     </div>
