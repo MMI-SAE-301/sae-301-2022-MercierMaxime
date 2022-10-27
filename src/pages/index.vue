@@ -27,8 +27,8 @@
     <img class="w-[35%] mt-9 h-1/2 p-10" src="@/components/img/Illustration3.png" alt="Image montre 3">
     <div class="px-[7%]">
       <h2 class="lg:pl-80 pt-10 font-made-okine-sans-personal-use font-regular text-Blanc sm:text-base lg:text-lg xl:text-2xl">Une identité</h2>
-      <h3 class="pt-20 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Nous vous proposons une montre unique en son genre, de l’écran en passant par le bracelet et le boitier, faites de votre montre un bijou personnel inestimable.</h3>
-      <h3 class="pt-20 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Elaborer avec soin, avec des matériaux de qualité, telles que la céramique, en titane ou encore en acier, votre montre vous accompagnera partout à tout les instants.</h3>
+      <h3 class="pt-20 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Avec les montres Tik.Tak. montrer la force de vos convictions qui vous ressemble, une identité propre et unique qui est la vôtre.</h3>
+      <h3 class="pt-20 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-base">Montrer votre détermination et votre volonté avec nos montres élaborés par nous, créer par vous.</h3>
     </div>
   </div>
 
