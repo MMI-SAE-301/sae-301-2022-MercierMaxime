@@ -3,6 +3,7 @@
     import { ref } from 'vue';
     import MontreFace from './MontreFace.vue';
     import FormKitListColors from "./FormKitListColors.vue";
+    import { supabase, user } from '@/supabase';
     
     const router = useRouter();
     const Montre = ref({});
