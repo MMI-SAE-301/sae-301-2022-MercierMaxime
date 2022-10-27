@@ -30,6 +30,7 @@
     console.log("erreur sur table Montre :", error);
     else Montre.value = data[0];
 }
+    //@ts-ignore
     async function upsertMontre(dataForm, node) {
     const { data, error } = await supabase.from("Montre").upsert(dataForm);
     if (error) node.setErrors([error.message]);

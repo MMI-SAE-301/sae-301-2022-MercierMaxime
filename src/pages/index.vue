@@ -59,7 +59,7 @@
   <section>
     <div class="flex flex-wrap">
       <div class="w-64 m-auto grid grid-cols-3 hover:space-x-32">
-        <RouterLink
+        <RouterLink 
         v-for="montre in exemples " :key="montre"
           :to="{
             name: 'montre-exemple-data',
