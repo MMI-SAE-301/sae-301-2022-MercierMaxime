@@ -9,7 +9,7 @@
         <p class="pt-5  font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-lg">Un modèle</p>
         <p class="pt-2 font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-lg">Une identité</p>
         <p class="font-made-okine-sans-personal-use font-light text-Blanc sm:text-sm lg:text-base xl:text-lg">Votre histoire</p>
-        <img src="./img/Logo-Copyright.png" alt="Logo Copyright">
+        <img src="./img/LogoCopyright.png" alt="Logo Copyright">
       </div>
       <RouterLink to="/montre"><p class="pt-10 pl-12 font-made-okine-sans-personal-use font-thin text-Blanc sm:text-sm lg:text-base xl:text-lg">Collection</p></RouterLink>
       <RouterLink to="/montre/new"><p class="pt-10 pl-10  font-made-okine-sans-personal-use font-thin text-Blanc sm:text-sm lg:text-base xl:text-lg">Personnalisation</p></RouterLink>
