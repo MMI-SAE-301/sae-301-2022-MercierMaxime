@@ -32,34 +32,31 @@ Noté sur 40.
 - Code et Commit (0-2-4-6pts)
 - Code HTML spécifiquement sémantique et accessible (0-1-2pts)
 
-- [ ] usage de Classes utilitaires (1pt)
+- [] usage de Classes utilitaires (1pt)
   - lien vers sa définition
   - lien vers son usage
-- [ ] Composants graphiques (0-1-2pts)
-  - liens
+- [X] Composants graphiques (0-1-2pts)
+  - [lien composant graphique](/src/components/Header.vue)
 - Technique CSS (0-1-2pts)
-  - Quelles techniques (Eg. Styles graphiques (répétés) tous ajoutés par CSS et/ou
-    config. Tailwind (eg. before/after avec content, background...))
-    - ...
-  - liens
+  - [Padding-pt-10](/src/pages/index.vue#L5)
+  - [width-w-1/2](/src/pages/index.vue#L10)
 - Mise en page CSS (0-1-2pts)
-  - Quelles techniques (Grilles Flex...)
-    - ...
-  - liens
-  - [ ] Mise en page fluide
-- [ ] Mobile First (0-1-2pts)
-  - [ ] Plusieurs tailles
-    - Lesquelles...
+  - [grid grid-cols-3 hover:space-x-32]
+    - [lien CSS](/src/pages/index.vue#L61)
+  - [X] Mise en page fluide
+- [X] Mobile First (0-1-2pts)
+  - [X] Plusieurs tailles
+    - [Sm - lg - xl](/src/pages/index.vue#L5)
 - [ ] Dark Mode (0-1-2pts)
   - [ ] Simple usage de 'dark:'
   - [ ] Mise en place avec usage de custom property pour les couleurs. Ou usage de DaisyUI AVEC thèmes perso
     - liens
 - "tailwin.config.js" (0-1-2pts)
-  - [ ] usage basique couleurs/fonts
-  - [ ] Comporte des données supplémentaires (utilisées !). Eg: "content-xxx", "bg-xxx", "grid-cols-xxx"...
-    - liens
+  - [X] usage basique couleurs/fonts
+  - [X] Comporte des données supplémentaires (utilisées !). Eg: "content-xxx", "bg-xxx", "grid-cols-xxx"...
+    - [Lien tailwindconfig](/tailwind.config.js#L36)
 - Composants "accessibles" (0-1-2pts)
-  - [ ] textes "accessibles" (eg. 'sr-only')
-  - [ ] Contenu accessible ET Usage de composants étudié pour accessibilité (Eg. HeadlessUI)
+  - [X] textes "accessibles" (eg. 'sr-only')
+  - [X] Contenu accessible ET Usage de composants étudié pour accessibilité (Eg. HeadlessUI)
 
 [^1]: Supprimez les mentions inutiles.
